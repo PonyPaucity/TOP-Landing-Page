@@ -1,0 +1,167 @@
+body {
+    font-family: roboto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    padding: 10px 200px 20px;
+    border: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.left {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+a { color: #E5E7EB;
+    text-decoration: none; 
+}
+
+.rheader {
+    display: inline-flex;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    gap: 100px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro-header {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; 
+    margin: 0;
+    padding: 30px 200px 30px;
+}
+
+.blurb {
+    display: flex;
+    padding: 20px 10px 0px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.blurb-images {
+    display: flex;
+    gap: 50px;
+    padding: 30px 100px;
+}
+
+div.gallery {
+    font-size: 16px;
+    text-align: center;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 400px 100px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    gap: 20px;
+}
+
+div.quote{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+div.quoter {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 200px 100px;
+
+    color: #1F2937;
+    gap: 20px;
+}
+
+.advertisement {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 20px 200px;
+    border-radius: 5px;
+    gap: 200px;
+}
+
+.callup-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.callup {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.callup-subtext {
+    font-weight: lighter;
+}
+
+.callup-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 200px;
+}
